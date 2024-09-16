@@ -35,7 +35,7 @@ This project is a simple **TCP-based chat application** built using Python's `so
   ```
 - **Run the server**:
   ```
-  python server.py
+  python chat_server.py
   ```
 - **Run the interface**:
   ```
