@@ -60,3 +60,13 @@ This project is a simple **TCP-based chat application** built using Python's `so
     - `gui_loop()`: Initializes the chat window using tkinter.
     - `write()`: Sends messages to the server.
     - `receive()`: Continuously listens for incoming messages from the server.
+ 
+## Opening Firewall Ports on Linux (firewalld) 
+- **To open port `12345` (or any other port you're using), you can follow these steps**:
+  ```bash
+  $ sudo firewall-cmd --add-port=12345/tcp --permanent
+  ```
+- **Reload the firewall**:
+  ```bash
+  $ sudo firewall-cmd --reload
+  ```
