@@ -26,9 +26,9 @@ This project is a simple **TCP-based chat application** built using Python's `so
 
 ## Requirements
 - Python 3.x
-- `socket` (standard Python library)
-- `threading` (standard Python library)
-- `tkinter` (standard Python library for GUI)
+- `socket`
+- `threading`
+- `tkinter`
 
 ## Installation
 - **Clone the repository**:
