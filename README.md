@@ -9,7 +9,7 @@ This project is a simple **TCP-based chat application** built using Python's `so
 - The GUI allows users to send and receive messages easily.
 
 ## Requirements
-  - Python 3.x
+  - Python 3
   - `socket`
   - `threading`
   - `tkinter`
