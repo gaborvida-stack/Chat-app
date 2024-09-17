@@ -8,6 +8,12 @@ This project is a simple **TCP-based chat application** built using Python's `so
 - The server broadcasts messages to all connected clients.
 - The GUI allows users to send and receive messages easily.
 
+## Requirements
+  - Python 3.x
+  - SQLite (comes bundled with Python)
+  - Pandas
+  - Matplotlib
+
 ## How It Works
 - **Server**:
   - Accepts multiple client connections.
