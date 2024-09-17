@@ -10,9 +10,8 @@ This project is a simple **TCP-based chat application** built using Python's `so
 
 ## Requirements
   - Python 3.x
-  - `SQLite`
-  - `Pandas`
-  - `Matplotlib`
+  - `socket`
+  - `threading`
 
 ## How It Works
 - **Server**:
