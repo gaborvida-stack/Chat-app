@@ -14,6 +14,23 @@ This project is a simple **TCP-based chat application** built using Python's `so
   - `threading`
   - `tkinter`
 
+## Installation
+  - **Clone the repository**:
+    ```
+    git clone https://github.com/gaborvida-stack/Chat-app.git
+    ```
+    ```
+    cd Chat-app
+    ```
+  - **Run the server**:
+    ```
+    python chat_server.py
+    ```
+  - **Run the interface**:
+    ```
+    python interface.py
+    ```
+
 ## How It Works
 - **Server**:
   - Accepts multiple client connections.
@@ -24,23 +41,6 @@ This project is a simple **TCP-based chat application** built using Python's `so
   - Connects to the server.
   - Sends and receives messages in real-time.
   - Provides a simple graphical interface for chat using `tkinter`.
-
-## Installation
-- **Clone the repository**:
-  ```
-  git clone https://github.com/gaborvida-stack/Chat-app.git
-  ```
-  ```
-  cd Chat-app
-  ```
-- **Run the server**:
-  ```
-  python chat_server.py
-  ```
-- **Run the interface**:
-  ```
-  python interface.py
-  ```
 
 ## Usage
 - **Server**: 
