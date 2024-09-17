@@ -22,13 +22,9 @@ This project is a simple **TCP-based chat application** built using Python's `so
     ```
     cd Chat-app
     ```
-  - **Run the server**:
-    ```
-    python chat_server.py
-    ```
-  - **Run the interface**:
-    ```
-    python interface.py
+  - Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
     ```
 
 ## How It Works
@@ -43,10 +39,16 @@ This project is a simple **TCP-based chat application** built using Python's `so
   - Provides a simple graphical interface for chat using `tkinter`.
 
 ## Usage
-- **Server**: 
+- **Server**:
+    ```bash
+    python chat_server.py
+    ```
    - The server listens for incoming connections. By default, it binds to `0.0.0.0` on port `12345`. You can change the host and port in the `server.py` file.
 
 - **Client**:
+    ```bash
+    python interface.py
+    ```
     - The client connects to the server by default at `127.0.0.1:12345`. You can also change the host and port in the client.py file. Upon starting, the client prompts the user for a nickname.
 
 ## Server Code Overview
