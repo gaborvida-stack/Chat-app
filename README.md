@@ -12,6 +12,7 @@ This project is a simple **TCP-based chat application** built using Python's `so
   - Python 3.x
   - `socket`
   - `threading`
+  - `tkinter`
 
 ## How It Works
 - **Server**:
@@ -23,12 +24,6 @@ This project is a simple **TCP-based chat application** built using Python's `so
   - Connects to the server.
   - Sends and receives messages in real-time.
   - Provides a simple graphical interface for chat using `tkinter`.
-
-## Requirements
-- Python 3.x
-- `socket`
-- `threading`
-- `tkinter`
 
 ## Installation
 - **Clone the repository**:
